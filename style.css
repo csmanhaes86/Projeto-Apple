@@ -78,30 +78,31 @@ li {
     border-radius: 50px;
     border: none;
     cursor: pointer;
+    margin-right: 5px;
 }
 
 .azul {
-    background-color: #81a5c4;
+    background: #81a5c4;
 }
 
 .amarelo {
-    background-color: #f7da47;
+    background: #f7da47;
 }
 
 .branco {
-    background-color: #c1c1c1;
+    background: #c1c1c1;
 }
 
 .preto {
-    background-color: #272d33;
+    background: #272d33;
 }
 
 .vermelho {
-    background-color: #b50012;
+    background: #b50012;
 }
 
 .roxo {
-    background-color: #ede7f1;
+    background: #dec4f0;
 }
 
 .escolha-cor {
@@ -125,3 +126,4 @@ li {
     position: absolute;
     clip-path: circle(600px at right 1000px);
 }
+
