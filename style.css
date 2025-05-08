@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    overflow: hidden;
+
 }
 
 .caixa-roxa {
@@ -13,6 +13,8 @@
     align-items: center;
     border-bottom: 1px solid #d3d3d3;
 
+
+
 }
 
 ul {
@@ -20,6 +22,8 @@ ul {
     list-style: none;
     gap: 100px;
     margin-left: 100px;
+
+
 }
 
 li {
@@ -37,6 +41,8 @@ li {
     align-items: center;
     justify-content: space-between;
     padding: 50px;
+
+
 }
 
 .titulo {
@@ -117,6 +123,10 @@ li {
     width: 450px;
     margin-top: 100px;
     z-index: 99;
+
+    @media (max-width: 850px) {
+        width: 80%;
+    }
 }
 
 .circulo {
@@ -125,5 +135,29 @@ li {
     background: #81a5c4;
     position: absolute;
     clip-path: circle(600px at right 1000px);
+
+    @media (max-width: 850px) {}
 }
 
+@media screen and (max-width: 800px) {
+
+    .caixa-roxa {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    ul {
+        gap: 20px;
+        margin-left: 20px;
+    }
+
+    .caixa-azul {
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .circulo {
+        display: none;
+    }
+}
